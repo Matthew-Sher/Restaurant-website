@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+h1.caps {
+    font-family: var(--bn);
+}
