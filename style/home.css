@@ -53,14 +53,9 @@
     z-index: 3;
 }
 
-/*
-.big-button .big-button-background {
-    position: absolute;
-    left: 50vw;
-    top: 568px;
-    height: 0px;
+.button-text {
+    z-index: 5;
 }
-*/
 
 a .big-button {
     color: var(--text);
@@ -68,4 +63,20 @@ a .big-button {
     font-size: 27.7px;
     font-weight: 700;
     line-height: 27.7px;
+}
+
+.big-button .big-button-background {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    border-radius: 250px;
+    background-color: var(--button-active);
+    transition: height 0.3s, width 0.3s, border-radius 0.3s;
+    z-index: 4;
+}
+
+.big-button:hover .big-button-background{
+    height: 80px;
+    width: 420px;
+    border-radius: inherit;
 }
