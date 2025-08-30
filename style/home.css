@@ -175,3 +175,43 @@ a .big-button {
 .left-review-arrow {
     rotate: 180deg;
 }
+
+/*--------CONTACT SECTION--------*/
+
+#contacts-section {
+    margin: 0;
+    width: 100%;
+    height: 701px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-pic {
+    width: 50vw;
+    background-image: url(../assets/gallery/contact.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-text {
+    box-sizing: border-box;
+    padding-top: 179px;
+    padding-left: 9.5vw;
+    width: 50vw;
+    background-color: #ffffff;
+}
+
+.contact-text span:first-child {
+    font-family: var(--pts);
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--content);
+}
+
+.contact-text span a {
+    color: var(--content);
+}
+
+.contact-text .big-button {
+    margin-top: 50px;
+}
