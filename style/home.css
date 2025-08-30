@@ -141,3 +141,37 @@ a .big-button {
 .right-arrow {
     rotate: 180deg;
 }
+
+/*----------REVIEWS SECTION-----------*/
+
+#reviews-section {
+    width: 100%;
+    height: 650px;
+}
+
+#reviews-section h2 {
+    margin: 0;
+    padding-top: 8.61vh;
+    padding-left: 13.4vw;
+    font-family: var(--bn);
+    color: var(--text);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.review-carousel {
+    padding-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reviews {
+    margin: 0;
+    height: 319px;
+}
+
+.left-review-arrow {
+    rotate: 180deg;
+}
