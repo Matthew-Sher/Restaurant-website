@@ -56,6 +56,10 @@ nav a {
     line-height: 26px;
 }
 
+.selectedNavbarItem {
+    color: var(--text-inactive);
+}
+
 .caps {
     text-transform: uppercase;
 }
