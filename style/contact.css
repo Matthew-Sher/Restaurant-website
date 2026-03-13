@@ -1,0 +1,84 @@
+#book-section {
+    margin-top: 11rem;
+}
+
+.contact-section-wrapper {
+    width: 100%;
+    height: 89rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-contact-section-part {
+    width: 50%;
+}
+
+.right-contact-section-part {
+    width: 50%;
+}
+
+.book-section-image {
+    background-image: url(../assets/gallery/contact/contact.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-header {
+    font-family: var(--bn);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.form-text {
+    font-family: PT Sans;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 125%;
+    letter-spacing: 0%;
+}
+
+#booking-form {
+    padding: 14% 33% 14% 19%;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-form-button {
+    all: unset;
+}
+
+.big-button{
+    width: inherit;
+}
+
+.text-input-form {
+    border-style: none;
+    border-bottom: 1px solid #292929;
+    margin: 3rem 0 0 0;
+    padding: 0 0 2rem 0;
+}
+
+.contact-information-container {
+    margin: 11% 17% 11% 34%;
+    font-family: var(--pts);
+}
+
+.contact-information-header {
+    font-weight: 700;
+    font-style: bold;
+    font-size: 2.5rem;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.contact-information {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 124%;
+    letter-spacing: 0;
+}

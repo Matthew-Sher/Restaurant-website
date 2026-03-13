@@ -1,3 +1,7 @@
+:root {
+    font-size: 62.5%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -62,6 +66,53 @@ nav a {
 
 .caps {
     text-transform: uppercase;
+}
+
+/*----------BUTTONS----------*/
+
+.button-group {
+    display: contents; 
+}
+
+.button-group .big-button {
+    position: relative;
+}
+
+.big-button {
+    margin-top: 35px;
+    width: 420px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: var(--button);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.button-text {
+    position: absolute;
+    z-index: 5;
+    color: var(--text);
+    font-family: var(--pts);
+    font-size: 27.7px;
+    font-weight: 700;
+    line-height: 27.7px;
+}
+
+.big-button-background {
+    height: 0px;
+    width: 0px;
+    border-radius: 25rem;
+    background-color: var(--button-active);
+    transition: height 0.3s, width 0.3s, border-radius 0.3s;
+    z-index: 4;
+}
+
+.big-button:hover .big-button-background{
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
 }
 
 /*---------FOOTER---------*/

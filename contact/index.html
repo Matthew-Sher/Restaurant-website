@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <title>Ресторан Эклектика | Контакты</title>
 
-        <link rel="stylesheet" href="../style/common.css">
-        <link rel="stylesheet" href="../style/colors.css">
-        <link rel="stylesheet" href="../style/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../style/common.css">
+        <link rel="stylesheet" type="text/css" href="../style/colors.css">
+        <link rel="stylesheet" type="text/css" href="../style/fonts.css">
+        <link rel="stylesheet" type="text/css" href="../style/contact.css">
     </head>
     <body>
         <nav>
@@ -27,6 +28,59 @@
                 </div>
             </div>
         </nav>
+
+        <section id="book-section" class="contact-section-wrapper">
+            <div class="left-contact-section-part book-section-image">
+                <!-- <img src="../assets/gallery/contact/contact.png"> -->
+            </div>
+            <div class="right-contact-section-part">
+                <form id="booking-form">
+                    <p class="form-header">
+                        Бронирование столика<br/>
+                        в ресторане «Эклектика»
+                    </p>
+                    <p class="form-text">
+                        Заполните форму ниже, чтобы зарезервировать столик у нас в ресторане. Мы будем ждать вас!
+                    </p>
+                    <input class="text-input-form" type="text" placeholder="Имя">
+                    <input class="text-input-form" type="text" placeholder="Телефон">
+                    <input class="text-input-form" type="text" placeholder="Почта">
+                    <div>
+                        <!-- here will be the date choosing and the quantity of guests -->
+                    </div>
+                    <input class="text-input-form" type="text" placeholder="Пожелания">
+                    <button type="submit" id="contact-form-book-button" class="submit-form-button">
+                        <div class="big-button">
+                            <div class="big-button-background"></div>
+                            <span class="button-text">Забронировать</span>
+                        </div>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section id="information-section" class="contact-section-wrapper">
+            <div class="left-contact-section-part">
+                <div class="contact-information-container">
+                    <span class="contact-information-header">
+                        Мы ценим, что вы выбрали наш ресторан и обещаем сделать ваш визит незабываемым!
+                    </span>
+                    <p class="contact-information">
+                        <b>Мы открыты:</b><br/><br/>
+
+                        Пн-Чт с 18:00 до 23:00<br/>
+                        Пт с 17:00 до 23:00<br/>
+                        Сб-Вс с 12:00 до 23:00<br/><br/>
+
+                        Москва, ул. Ленина, д.11<br/>
+                        +7 (911) 000-00-80
+                    </p>
+                </div>
+            </div>
+            <div class="right-contact-section-part">
+                <!-- here will be the map -->
+            </div>
+        </section>
 
         <footer>
             <h3>Эклектика</h3>
