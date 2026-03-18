@@ -42,13 +42,22 @@
                     <p class="form-text">
                         Заполните форму ниже, чтобы зарезервировать столик у нас в ресторане. Мы будем ждать вас!
                     </p>
-                    <input class="text-input-form" type="text" placeholder="Имя">
-                    <input class="text-input-form" type="text" placeholder="Телефон">
-                    <input class="text-input-form" type="text" placeholder="Почта">
-                    <div>
-                        <!-- here will be the date choosing and the quantity of guests -->
+                    <input id="form-name" class="text-input-form" type="text" placeholder="Имя">
+                    <input id="form-phone" class="text-input-form" type="text" placeholder="Телефон">
+                    <input id="form-mail" class="text-input-form" type="text" placeholder="Почта">
+                    <div class="guest-and-date-container">
+                        <div class="guests-counter">
+                            <button type="button">-</button>
+                            <input id="guests-count" class="guests-count" type="" placeholder="1">
+                            <button type="button">+</button>
+                            <span>Количество гостей</span>
+                        </div>
+                        <button id="date-selection">
+                            <span>Дата и время</span>
+                            <img src="../assets/svg/left-arrow.svg">
+                        </button>
                     </div>
-                    <input class="text-input-form" type="text" placeholder="Пожелания">
+                    <input id="form-wishes" class="text-input-form" type="text" placeholder="Пожелания">
                     <button type="submit" id="contact-form-book-button" class="submit-form-button">
                         <div class="big-button">
                             <div class="big-button-background"></div>
