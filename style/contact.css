@@ -67,15 +67,16 @@
     margin: 3rem 0 0 0;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #guests-count {
     all: unset;
-    width: 3.5rem;
+    width: 2rem;
     font-family: var(--pts);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 96%;
     letter-spacing: 0%;
     text-align: center;
@@ -86,9 +87,15 @@
     color: #B2B2B2;
     font-family: var(--pts);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 96%;
     letter-spacing: 0%;
+}
+
+.guests-counter > button{
+    background-color: none;
+    border: 1px solid #292929;
+    border-radius: 4px;
 }
 
 #date-selection {
@@ -96,7 +103,7 @@
     color: #B2B2B2;
     font-family: var(--pts);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 96%;
     letter-spacing: 0%;
     display: flex;

@@ -47,9 +47,9 @@
                     <input id="form-mail" class="text-input-form" type="text" placeholder="Почта">
                     <div class="guest-and-date-container">
                         <div class="guests-counter">
-                            <button type="button">-</button>
-                            <input id="guests-count" class="guests-count" type="" placeholder="1">
-                            <button type="button">+</button>
+                            <button id="guest-decrease-button" type="button">-</button>
+                            <input id="guests-count" class="guests-count" type="" value="0">
+                            <button id="guest-increase-button" type="button">+</button>
                             <span>Количество гостей</span>
                         </div>
                         <button id="date-selection">
@@ -103,5 +103,7 @@
                 </ul>
             </div>
         </footer>
+
+        <script src="./contact.js"></script>
     </body>
 </html>
