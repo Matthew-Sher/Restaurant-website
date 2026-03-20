@@ -30,9 +30,7 @@
         </nav>
 
         <section id="book-section" class="contact-section-wrapper">
-            <div class="left-contact-section-part book-section-image">
-                <!-- <img src="../assets/gallery/contact/contact.png"> -->
-            </div>
+            <div class="left-contact-section-part book-section-image"></div>
             <div class="right-contact-section-part">
                 <form id="booking-form">
                     <p class="form-header">
@@ -48,14 +46,15 @@
                     <div class="guest-and-date-container">
                         <div class="guests-counter">
                             <button id="guest-decrease-button" type="button">-</button>
-                            <input id="guests-count" class="guests-count" type="" value="0">
+                            <input id="guests-count" class="guests-count" type="" value="0" readonly>
                             <button id="guest-increase-button" type="button">+</button>
                             <span>Количество гостей</span>
                         </div>
-                        <button id="date-selection">
-                            <span>Дата и время</span>
-                            <img src="../assets/svg/left-arrow.svg">
-                        </button>
+                        <div id="date-selection">
+                            <input id="date-selector" type="datetime-local" placeholder="Дата и время">
+                            <!-- <span>Дата и время</span>
+                            <img src="../assets/svg/left-arrow.svg"> -->
+                        </div>
                     </div>
                     <input id="form-wishes" class="text-input-form" type="text" placeholder="Пожелания">
                     <button type="submit" id="contact-form-book-button" class="submit-form-button">
@@ -87,7 +86,9 @@
                 </div>
             </div>
             <div class="right-contact-section-part">
-                <!-- here will be the map -->
+                <a href="https://yandex.ru/maps/org/eklektika/108869408057/?ll=38.580081%2C56.368335&z=16.61">
+                    <div class="map"></div>
+                </a>
             </div>
         </section>
 

@@ -4,7 +4,7 @@
 
 .contact-section-wrapper {
     width: 100%;
-    height: 89rem;
+    /* height: 89rem; */
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -43,7 +43,7 @@
 }
 
 #booking-form {
-    padding: 14% 33% 14% 19%;
+    padding: 0 33% 10% 19%;
     display: flex;
     flex-direction: column;
 }
@@ -111,11 +111,11 @@
     align-items: center;
 }
 
-#date-selection > img {
+/* #date-selection > img {
     transform: rotate(-90deg);
     width: 2rem;
     height: 1rem;
-}
+} */
 
 .contact-information-container {
     margin: 11% 17% 11% 34%;
@@ -135,4 +135,16 @@
     font-size: 2rem;
     line-height: 124%;
     letter-spacing: 0;
+}
+
+.right-contact-section-part > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/gallery/contact/map.png");
 }
