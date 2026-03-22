@@ -29,34 +29,37 @@
             </div>
         </nav>
 
+        <div id="calendar" class="invisible">
+            <!-- Скрытый календарь -->
+        </div>
+
         <section id="book-section" class="contact-section-wrapper">
             <div class="left-contact-section-part book-section-image"></div>
             <div class="right-contact-section-part">
+                <p class="form-header">
+                    Бронирование столика<br/>
+                    в ресторане «Эклектика»
+                </p>
+                <p class="form-text">
+                    Заполните форму ниже, чтобы зарезервировать столик у нас в ресторане. Мы будем ждать вас!
+                </p>
                 <form id="booking-form">
-                    <p class="form-header">
-                        Бронирование столика<br/>
-                        в ресторане «Эклектика»
-                    </p>
-                    <p class="form-text">
-                        Заполните форму ниже, чтобы зарезервировать столик у нас в ресторане. Мы будем ждать вас!
-                    </p>
-                    <input id="form-name" class="text-input-form" type="text" placeholder="Имя">
-                    <input id="form-phone" class="text-input-form" type="text" placeholder="Телефон">
-                    <input id="form-mail" class="text-input-form" type="text" placeholder="Почта">
+                    <input id="form-name" name="users-name" class="text-input-form" type="text" placeholder="Имя">
+                    <input id="form-phone" name="users-phone" class="text-input-form" type="text" placeholder="Телефон">
+                    <input id="form-mail" name="users-mail" class="text-input-form" type="text" placeholder="Почта">
                     <div class="guest-and-date-container">
                         <div class="guests-counter">
                             <button id="guest-decrease-button" type="button">-</button>
-                            <input id="guests-count" class="guests-count" type="" value="0" readonly>
+                            <input id="guests-count" name="guests-count" class="guests-count" type="" value="0" readonly>
                             <button id="guest-increase-button" type="button">+</button>
                             <span>Количество гостей</span>
                         </div>
                         <div id="date-selection">
-                            <input id="date-selector" type="datetime-local" placeholder="Дата и время">
-                            <!-- <span>Дата и время</span>
-                            <img src="../assets/svg/left-arrow.svg"> -->
+                            <input id="date-selector" name="date" type="text" placeholder="Дата и время" >
+                            <!--This date selector is for test only. It will be completely rebuild-->
                         </div>
                     </div>
-                    <input id="form-wishes" class="text-input-form" type="text" placeholder="Пожелания">
+                    <input id="form-wishes" name="users-wishes" class="text-input-form" type="text" placeholder="Пожелания">
                     <button type="submit" id="contact-form-book-button" class="submit-form-button">
                         <div class="big-button">
                             <div class="big-button-background"></div>
